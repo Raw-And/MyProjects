@@ -25,7 +25,7 @@ app.get("", (req, res) => {
 app.get("/help", (req, res) => {
   res.render("help", {
     help: "We're ready to help you",
-    helper: "Im Rawand, please tell me your problem...",
+    helper: "Im Rawand, Tell me your problem...",
   });
 });
 
